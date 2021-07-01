@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="kube.css">
+        <script src="kube.js"></script>
+    </head>
+    <body>
+        <div id='d'>
+            <input id='inp1' placeholder="Enter Your Wish Here...">
+            <button onclick="cmd()" id='btn1'>submit</button>
+             <a href="#d2"><button id='b'>Pre Created cmd</button></a>
+        </div>
+
+        <div id='d1' align='center'>
+            <h2  style="color: rgb(243, 23, 23);"><b>Output</b></h2>
+            <pre><p id='p1'></p></pre>
+        </div>
+        <div align='center' style="padding-top: 10px;" id='d2'>
+            <a href="#d"> <button id='b0' class="btn" onclick="show_pod()">   <h4>Show Pods</h4>         </button></a>
+            <a href="#d"> <button id='b1' class="btn" onclick="Launch_pod()"> <h4>Launch Pod</h4>        </button></a>
+            <a href="#d"> <button id='b2' class="btn" onclick="deployment()"> <h4>Deployment</h4>        </button></a>
+            <a href="#d"> <button id='b3' class="btn" onclick="expose()">     <h4>Expose Deployment</h4> </button></a>
+            <a href="#d"> <button id='b4' class="btn" onclick="scale()">      <h4>Scale Replicas</h4>    </button></a>
+            <a href="#d"> <button id='b5' class="btn" onclick="del_res()">    <h4>Delete resource</h4>   </button></a>
+
+        </div>
+
+    </body>
+</html>
